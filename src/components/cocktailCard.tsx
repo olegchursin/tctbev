@@ -73,7 +73,9 @@ const CocktailCard: FC<CocktailProps> = ({ cocktail }) => {
             })}
           </>
         ) : (
-          <p>No batch</p>
+          <p className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+            No batch
+          </p>
         )}
       </div>
     </>
@@ -86,7 +88,7 @@ const CocktailCard: FC<CocktailProps> = ({ cocktail }) => {
   );
 
   return (
-    <div className="flex max-w-sm flex-col justify-between rounded-lg border border-gray-200 bg-white p-6 shadow dark:border-gray-700 dark:bg-gray-800 md:max-w-xs">
+    <div className="flex min-w-[320px] max-w-sm flex-col justify-between rounded-lg border border-gray-200 bg-white p-6 shadow dark:border-gray-700 dark:bg-gray-800 md:max-w-xs">
       <div>
         {title}
         {baseInfo}

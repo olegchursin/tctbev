@@ -7,11 +7,11 @@
     "garnish": "Edible Flower",
     "ingredients": [
       {
-        "name": "Select Aperitivo",
+        "name": "Select aperitivo",
         "amount": "0.75oz"
       },
       {
-        "name": "Fruit Punch Liqueur",
+        "name": "Fruit punch liqueur",
         "amount": "0.75oz"
       },
       {
@@ -19,11 +19,11 @@
         "amount": "0.75oz"
       },
       {
-        "name": "Vanilla Simple",
+        "name": "Vanilla simple",
         "amount": "0.25oz"
       },
       {
-        "name": "Sparkling Wine",
+        "name": "Sparkling wine",
         "amount": ""
       }
     ],
@@ -43,11 +43,11 @@
         "amount": "2oz"
       },
       {
-        "name": "Passion Fruit Puree",
+        "name": "Passion fruit puree",
         "amount": "0.5oz"
       },
       {
-        "name": "Lemon Juice",
+        "name": "Lemon juice",
         "amount": "0.5oz"
       },
       {
@@ -59,21 +59,21 @@
         "amount": "2oz"
       },
       {
-        "name": "Grenadine Float",
+        "name": "Grenadine float",
         "amount": ""
       }
     ],
     "batch": [
       {
-        "name": "Haku Vodka",
+        "name": "Haku vodka",
         "amount": "6btls"
       },
       {
-        "name": "Dolin Blanc",
+        "name": "Dolin blanc",
         "amount": "2btls"
       },
       {
-        "name": "Passion Fruit Liqueur",
+        "name": "Passion fruit liqueur",
         "amount": "1btl"
       },
       {
@@ -92,29 +92,29 @@
     "garnish": "Lemon Twist /  Olive flag",
     "ingredients": [
       {
-        "name": "Simple Vodka",
+        "name": "Simple vodka",
         "amount": "1.5oz"
       },
       {
-        "name": "Greenhook Gin",
+        "name": "Greenhook gin",
         "amount": "1oz"
       },
       {
-        "name": "Italicus Bergamot",
+        "name": "Italicus bergamot",
         "amount": "0.5oz"
       }
     ],
     "batch": [
       {
-        "name": "Simple Vodka",
+        "name": "Simple vodka",
         "amount": "3btls"
       },
       {
-        "name": "Greenhook Gin",
+        "name": "Greenhook gin",
         "amount": "2btls"
       },
       {
-        "name": "Italicus Bergamot",
+        "name": "Italicus bergamot",
         "amount": "1btl"
       }
     ],
@@ -137,11 +137,11 @@
         "amount": "0.75oz"
       },
       {
-        "name": "Lime Juice",
+        "name": "Lime juice",
         "amount": "1oz"
       },
       {
-        "name": "Habanero Bitters",
+        "name": "Habanero bitters",
         "amount": "5 dashes"
       }
     ],
@@ -151,7 +151,7 @@
         "amount": "4ltrs"
       },
       {
-        "name": "Dolin Dry",
+        "name": "Dolin dry",
         "amount": "3ltrs"
       },
       {
@@ -161,5 +161,78 @@
     ],
     "build": "Build in tin. Long Shake. Strain over fresh ice. Garnish with black salt rim and dehydrated lime.",
     "radioByte": "Chilean Poet. This is a spicy margarita with a black salt rim."
+  },
+  {
+    "id": "rosario",
+    "name": "Rosario Candella",
+    "baseSpirit": ["tequila"],
+    "glass": "Big Rock",
+    "garnish": "No Garnish",
+    "ingredients": [
+      {
+        "name": "Batch",
+        "amount": "3oz"
+      },
+      {
+        "name": "Orange",
+        "amount": "3 dashes"
+      },
+      {
+        "name": "Saline",
+        "amount": "3 dashes"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Cimarron Blanco",
+        "amount": "3"
+      },
+      {
+        "name": "La Mone",
+        "amount": "4"
+      },
+      {
+        "name": "Nonino",
+        "amount": "2"
+      },
+      {
+        "name": "C Comoz Chambery Blanc",
+        "amount": "2"
+      }
+    ],
+    "build": "Stir and strain over big rock",
+    "radioByte": "Sicilian-American architect known for his Park Avenue apartment designs."
+  },
+  {
+    "id": "hayao",
+    "name": "Hayao Miyazaki",
+    "baseSpirit": ["whisky"],
+    "glass": "Coupe",
+    "garnish": "Matcha Tincture",
+    "ingredients": [
+      {
+        "name": "Sesame-washed Bushmills",
+        "amount": "1.25oz"
+      },
+      {
+        "name": "Raspberry liqueur",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Raspberry syrup",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Aquafaba",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Lemon",
+        "amount": "0.5oz"
+      }
+    ],
+    "batch": [],
+    "build": "Build in a tin, LONG shake, strain into a coupe.",
+    "radioByte": "Aquafaba is the liquid that comes from chickpeas, it is used in the same way we use egg whites to create a Sour cocktail with a perfect foam. Tincture is essentially a uber strong tea made with high proof alcohol. Raspberry 2 ways - in a liqueur and also a seasonal market berry syrup. Fat-washing is a process used to infuse flavors from oils/fats onto spirits without taking on the fatty/oily properties. Essentially this is a grown-up PBJ 'sour' with a matcha garnish "
   }
 ]
