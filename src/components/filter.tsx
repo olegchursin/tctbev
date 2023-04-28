@@ -9,7 +9,7 @@ interface FilterProps {
 
 const Filter: FC<FilterProps> = ({ activeFilter, setFilter }) => {
   return (
-    <div className="my-12 flex w-full overflow-scroll md:place-content-center">
+    <div className="my-6 flex w-full overflow-scroll md:my-12 md:place-content-center">
       <div className="flex gap-4">
         {filters.map(filter => {
           return (

@@ -3,6 +3,7 @@ import { FC, Suspense } from 'react';
 import { Flowbite, Spinner } from 'flowbite-react';
 import { flowbiteTheme as theme } from '../theme';
 import '../styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const App: FC<AppProps> = function ({ Component, pageProps }): JSX.Element {
   return (
@@ -15,6 +16,7 @@ const App: FC<AppProps> = function ({ Component, pageProps }): JSX.Element {
     >
       <Flowbite theme={{ theme }}>
         <Component {...pageProps} />
+        <Analytics />
       </Flowbite>
     </Suspense>
   );

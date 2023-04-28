@@ -25,7 +25,7 @@ const Cocktails: FC = () => {
   const cocktailsList = filterCocktails(activeFilter);
 
   return (
-    <div className="mb-28 px-6 pt-12 md:px-0">
+    <div className="mb-28 px-6 pt-6 md:pt-12 md:px-0">
       <div className="flex place-content-center">
         <div className="w-full md:w-1/2">
           <TextInput
