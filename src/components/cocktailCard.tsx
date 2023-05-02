@@ -11,7 +11,7 @@ interface Cocktail {
   readonly name: string;
   readonly baseSpirit: string[];
   readonly ingredients: Ingredient[];
-  readonly batch: Ingredient[];
+  readonly batch: Ingredient[] | null;
   readonly build: string;
   readonly glass: string;
   readonly garnish: string;
@@ -58,7 +58,7 @@ const CocktailCard: FC<CocktailProps> = ({ cocktail }) => {
         {radioByte}
       </div>
       <div className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        {batch.length ? (
+        {batch?.length ? (
           <>
             <p className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
               Batch

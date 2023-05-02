@@ -208,7 +208,7 @@
     "name": "Hayao Miyazaki",
     "baseSpirit": ["whisky"],
     "glass": "Coupe",
-    "garnish": "Matcha Tincture",
+    "garnish": "Matcha tincture",
     "ingredients": [
       {
         "name": "Sesame-washed Bushmills",
@@ -234,5 +234,543 @@
     "batch": [],
     "build": "Build in a tin, LONG shake, strain into a coupe.",
     "radioByte": "Aquafaba is the liquid that comes from chickpeas, it is used in the same way we use egg whites to create a Sour cocktail with a perfect foam. Tincture is essentially a uber strong tea made with high proof alcohol. Raspberry 2 ways - in a liqueur and also a seasonal market berry syrup. Fat-washing is a process used to infuse flavors from oils/fats onto spirits without taking on the fatty/oily properties. Essentially this is a grown-up PBJ 'sour' with a matcha garnish "
+  },
+  {
+    "id": "leo",
+    "name": "Leonard Marsh",
+    "baseSpirit": ["gin"],
+    "glass": "Highball",
+    "garnish": "Dried apricot flag",
+    "ingredients": [
+      {
+        "name": "Batch",
+        "amount": "3oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "1oz"
+      },
+      {
+        "name": "Club soda",
+        "amount": "Top"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Fords",
+        "amount": "1oz"
+      },
+      {
+        "name": "Abricot",
+        "amount": "1oz"
+      },
+      {
+        "name": "Cardamaro",
+        "amount": "1oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "1oz"
+      },
+      {
+        "name": "Club soda",
+        "amount": "Top"
+      },
+      {
+        "name": "Dashes",
+        "amount": "5-6"
+      }
+    ],
+    "build": "Build in a tin and strain into highball with ice, top with club, 5-6 dashes tiki bitters",
+    "radioByte": "A Singapore Sling variation - a Sling usually a sweeter style cocktail done with an herbal liqueur and Cherry Heering.  In place of herbs we use Cardamaro (an amaro that uses ardoons - a root veg in the same family as the artichoke) and Apricot Liqueur to keep it fresh over the sweetness of the Cherry Heering.  Comes across like a apricot Snapple iced tea - thus it's name Leonard Marsh for the founder Snapple Iced Tea - which became one of the biggest beverages for flavored teas. This is served over ice in a highball with club soda + straw."
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron Copeland",
+    "baseSpirit": ["whisky"],
+    "glass": "Rocks",
+    "garnish": "Apricot, dried cranberries",
+    "ingredients": [
+      {
+        "name": "Batch",
+        "amount": "2.5oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Simple syrup",
+        "amount": "0.25oz"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Lyre's Amaretti",
+        "amount": "1,750ml"
+      },
+      {
+        "name": "Cherry Herring",
+        "amount": "1,750ml"
+      },
+      {
+        "name": "Hazelnut Liqueur",
+        "amount": "1,750ml"
+      },
+      {
+        "name": "Apricot Liqueur",
+        "amount": "1,750ml"
+      },
+      {
+        "name": "Woodinville Rye",
+        "amount": "6,750ml"
+      },
+      {
+        "name": "Total Batch Volume",
+        "amount": "7.5 quarts"
+      }
+    ],
+    "build": "Build in tin, long Shake. Strain over fresh ice.",
+    "radioByte": "Aaron Copeland was an American composer who heavily influenced the sound of American concert and choral music (he composed the music popularized by the 'Beef, it's whats for dinner' commercial, Hoe-Down from Billy the Kid). His music was one of the greatest depictions musically of the legendary American West. This 'harvest' cocktail is just that, a harvest-themed blend of rye, almond, hazelnut, cherry and apricot."
+  },
+  {
+    "id": "john-jay",
+    "name": "John J. Fitz Gerald",
+    "baseSpirit": ["whisky"],
+    "glass": "Coupe",
+    "garnish": "Cinnamon sugar",
+    "ingredients": [
+      {
+        "name": "Woodford Reserve Bourbon",
+        "amount": "2oz"
+      },
+      {
+        "name": "Apple-Cinnamon syrup",
+        "amount": "0.75"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1oz"
+      },
+      {
+        "name": "Aquafaba",
+        "amount": "0.5oz"
+      }
+    ],
+    "batch": [],
+    "build": "Build in a tin, Long shake, strain into a coupe.",
+    "radioByte": "A classic bourbon sour with Apple-Cinnmon spice vibes. Fitz Gerald was a sports journalist in NYC for New York Morning Telegraph between 1915-1940, outside of serving in WWI, he covered turf (horse) racing and was the first to coin the phrase 'Big Apple' talking about the tracks in New York."
+  },
+  {
+    "id": "emily",
+    "name": "Emily in Brooklyn",
+    "baseSpirit": ["whisky", "cognac"],
+    "glass": "Nick & Nora",
+    "garnish": "Orange twist/flag",
+    "ingredients": [
+      {
+        "name": "Emily batch",
+        "amount": "3.5oz"
+      },
+      {
+        "name": "Angostura",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Orange Bitters",
+        "amount": "2 dashes"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Rye",
+        "amount": "3btls"
+      },
+      {
+        "name": "Hennessy XO",
+        "amount": "1btl"
+      },
+      {
+        "name": "Montenegro",
+        "amount": "0.75btl"
+      },
+      {
+        "name": "Maraschino",
+        "amount": "1btl"
+      },
+      {
+        "name": "Saratoga Still",
+        "amount": "0.5btl"
+      }
+    ],
+    "build": "Stirred, served up.",
+    "radioByte": "Emily Roebling - engineer of the Brooklyn Bridge (along with her husband and father in law John Roebling)."
+  },
+  {
+    "id": "empire_state_negroni",
+    "name": "Empire State Negroni",
+    "baseSpirit": ["gin", "other"],
+    "glass": "Rocks",
+    "garnish": "Orange Twist + Half Moon",
+    "ingredients": [
+      {
+        "name": "Empire batch",
+        "amount": "3oz"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Forthave Red",
+        "amount": "1 btl"
+      },
+      {
+        "name": "Isolation Proof Gin",
+        "amount": "1 btl"
+      },
+      {
+        "name": "Method Vermouth",
+        "amount": "1 btl"
+      }
+    ],
+    "build": "Stirred, strain over big rock.",
+    "radioByte": "This is a fully New York State product all-booze cocktail, hence the luxury price."
+  },
+  {
+    "id": "espresso_martini",
+    "name": "Espresso Martini",
+    "baseSpirit": ["vodka"],
+    "glass": "Coupe",
+    "garnish": "3 Espresso Beans",
+    "ingredients": [
+      {
+        "name": "Espresso",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Simple",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Mr Black",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Belvedere",
+        "amount": "1.5oz"
+      }
+    ],
+    "batch": [],
+    "build": "Build in a tin, long hard shake, strain into coupe.",
+    "radioByte": "The Espresso Martini is a classic cocktail known for its combination of coffee and alcohol, delivering a delightful balance of flavors."
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "baseSpirit": ["tequila"],
+    "glass": "Highball",
+    "garnish": "Lime wedge",
+    "ingredients": [
+      {
+        "name": "Maestro Doebel",
+        "amount": "2oz"
+      },
+      {
+        "name": "Lime",
+        "amount": "0.25oz"
+      },
+      {
+        "name": "Saline",
+        "amount": "3 dashes"
+      },
+      {
+        "name": "Sparkling Grapefruit Soda",
+        "amount": "Top"
+      }
+    ],
+    "batch": [],
+    "build": "Build over ice in a highball.",
+    "radioByte": "The Paloma is a refreshing tequila-based cocktail that features a combination of citrus and sparkling grapefruit, making it a perfect choice for warm weather or outdoor gatherings."
+  },
+  {
+    "id": "pegu_club",
+    "name": "Pegu Club",
+    "baseSpirit": ["gin"],
+    "glass": "Coupe",
+    "garnish": "Dried Lime Wheel",
+    "ingredients": [
+      {
+        "name": "Fords Gin",
+        "amount": "1.5oz"
+      },
+      {
+        "name": "Lime Juice",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Cointreau",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Simple",
+        "amount": "0.25"
+      },
+      {
+        "name": "Angostura",
+        "amount": "3 dashes"
+      }
+    ],
+    "batch": [],
+    "build": "Build in a tin, long shake, strain into coupe.",
+    "radioByte": "The Pegu Club is a classic gin-based cocktail that combines citrus flavors and a touch of sweetness, making it an elegant and refreshing choice for any occasion."
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "baseSpirit": ["whisky"],
+    "glass": "Rocks",
+    "garnish": "Candied ginger",
+    "ingredients": [
+      {
+        "name": "Glenmorangie 10yr",
+        "amount": "2oz"
+      },
+      {
+        "name": "Ginger syrup",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Peat monster",
+        "amount": "3 sprays"
+      }
+    ],
+    "batch": null,
+    "build": "Build in a tin, long shake, strain over fresh ice. 3 sprays Peat Monster.",
+    "radioByte": "The Penicillin is a modern classic cocktail that features scotch, ginger syrup, and lemon juice, offering a delightful balance of smoky, sweet, and tart flavors."
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "baseSpirit": ["cognac"],
+    "glass": "Coupe",
+    "garnish": "Sugar rim + Lemon peel",
+    "ingredients": [
+      {
+        "name": "Sidecar batch",
+        "amount": "2.5oz"
+      },
+      {
+        "name": "Lemon Juice",
+        "amount": "0.50oz"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Limoncello",
+        "amount": "1x 750ml"
+      },
+      {
+        "name": "Hennessy VSOP",
+        "amount": "6x 750ml"
+      },
+      {
+        "name": "Cointreau",
+        "amount": "1x 1.75L + 1x 500ml"
+      }
+    ],
+    "build": "Build in a tin, long shake, strain into coupe.",
+    "radioByte": "The Sidecar is a classic cocktail that combines cognac, Cointreau, and lemon juice for a balanced mix of sweet and sour flavors, making it a sophisticated choice for any occasion."
+  },
+  {
+    "id": "jungle_bird",
+    "name": "Jungle Bird",
+    "baseSpirit": ["rum"],
+    "glass": "Rocks",
+    "garnish": "Pineapple leaf",
+    "ingredients": [
+      {
+        "name": "Jungle batch",
+        "amount": "2oz"
+      },
+      {
+        "name": "Pineapple juice",
+        "amount": "1.5oz"
+      },
+      {
+        "name": "Simple",
+        "amount": "0.25oz"
+      }
+    ],
+    "batch": [
+      {
+        "name": "Mt Gay",
+        "amount": "3x bottles"
+      },
+      {
+        "name": "Cappelletti",
+        "amount": "4x bottles"
+      },
+      {
+        "name": "Plantation",
+        "amount": "1x bottles + 250ml"
+      },
+      {
+        "name": "Cruzan",
+        "amount": "1x bottle"
+      }
+    ],
+    "build": "Build in a tin, long shake, strain over fresh ice.",
+    "radioByte": "The Jungle Bird is a tropical cocktail that combines rum, pineapple, and a touch of sweetness for a refreshing and exotic flavor experience, perfect for warm weather or island-themed events."
+  },
+  {
+    "id": "oaxacan_old_fashioned",
+    "name": "Oaxacan Old Fashioned",
+    "baseSpirit": ["tequila"],
+    "glass": "Rocks",
+    "garnish": "Orange + Lemon Twists",
+    "ingredients": [
+      {
+        "name": "Maestro Doebel",
+        "amount": "1.5oz"
+      },
+      {
+        "name": "Siete Misterios Mezcal",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Simple",
+        "amount": "0.25oz"
+      },
+      {
+        "name": "Bittermans Xocolat Bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Angostura Bitters",
+        "amount": "2 dashes"
+      }
+    ],
+    "batch": null,
+    "build": "Build in a mixing glass, stir, strain over block ice, express twist over top.",
+    "radioByte": "The Oaxacan Old Fashioned is a smoky and rich twist on the classic Old Fashioned cocktail, featuring a unique blend of tequila, mezcal, and bitters for a complex and robust flavor profile."
+  },
+  {
+    "id": "paper_plane",
+    "name": "Paper Plane",
+    "baseSpirit": ["whisky", "other"],
+    "glass": "Coupe",
+    "garnish": "Orange Twist",
+    "ingredients": [
+      {
+        "name": "Buffalo Trace Bourbon",
+        "amount": "1oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1oz"
+      },
+      {
+        "name": "Aperol",
+        "amount": "1oz"
+      },
+      {
+        "name": "Montenegro",
+        "amount": "1oz"
+      }
+    ],
+    "batch": null,
+    "build": "Build in a tin, long shake, strain into coupe.",
+    "radioByte": "The Paper Plane is a bright and refreshing bourbon-based cocktail that combines citrus, Aperol, and Montenegro for a well-balanced mix of sweet, tart, and bitter flavors, making it an enjoyable choice for various occasions."
+  },
+  {
+    "id": "beach_day",
+    "name": "Beach Day",
+    "baseSpirit": ["na"],
+    "glass": "Rocks",
+    "garnish": "Fruit leather on a skewer",
+    "ingredients": [
+      {
+        "name": "Giffard aperitif",
+        "amount": "1.5oz"
+      },
+      {
+        "name": "Guava puree",
+        "amount": "1oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Simple syrup",
+        "amount": "0.5oz"
+      }
+    ],
+    "batch": null,
+    "build": "Build in tin, long shake, strain over fresh ice, top with club soda.",
+    "radioByte": "The Beach Day cocktail is a tropical delight that combines an aperitif with guava puree, lime, and simple syrup for a fruity, refreshing drink perfect for a sunny day at the beach or a relaxing poolside gathering."
+  },
+  {
+    "id": "hot_chloe",
+    "name": "Hot Chloe",
+    "baseSpirit": ["na"],
+    "glass": "Highball",
+    "garnish": "Cucumber ribbon",
+    "ingredients": [
+      {
+        "name": "Lyre's Orange Sec",
+        "amount": "1.5oz"
+      },
+      {
+        "name": "Jalapeno syrup",
+        "amount": "0.75oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Club Soda",
+        "amount": "Top"
+      }
+    ],
+    "batch": null,
+    "build": "Build in a tin, shake, strain over fresh ice and top with club soda.",
+    "radioByte": "The Hot Chloe is a spicy, non-alcoholic highball that combines Lyre's Orange Sec with jalapeno syrup and lime for a bright, moderately spicy, and fizzy drink. Garnished with a cucumber ribbon, this vibrant green cocktail may taste clean and healthy, even if it isn't."
+  },
+  {
+    "id": "summer_vacation",
+    "name": "Summer Vacation",
+    "baseSpirit": ["na"],
+    "glass": "Coupe",
+    "garnish": "None",
+    "ingredients": [
+      {
+        "name": "Lyre's White Cane",
+        "amount": "2oz"
+      },
+      {
+        "name": "Passion fruit",
+        "amount": "1oz"
+      },
+      {
+        "name": "Simple syrup",
+        "amount": "1oz"
+      },
+      {
+        "name": "Aquafaba",
+        "amount": "0.5oz"
+      },
+      {
+        "name": "Lemon",
+        "amount": "0.5oz"
+      }
+    ],
+    "batch": null,
+    "build": "Build in a tin, long shake, strain into a coupe.",
+    "radioByte": "The Summer Vacation is a non-alcoholic passionfruit sour. It uses Lyre's White Cane, an imitation rum spirit, and aquafaba, the liquid from chickpeas, which acts as a substitute for egg whites to create a perfect foam. This refreshing and bright cocktail is perfect for a relaxing summer day."
   }
 ]

@@ -4,10 +4,10 @@ import { filters } from '../utils/filter';
 
 interface FilterProps {
   readonly activeFilter: string;
-  readonly setFilter: (filterKey: string) => void;
+  readonly handleFilter: (filterKey: string) => void;
 }
 
-const Filter: FC<FilterProps> = ({ activeFilter, setFilter }) => {
+const Filter: FC<FilterProps> = ({ activeFilter, handleFilter }) => {
   return (
     <div className="my-6 flex w-full overflow-scroll md:my-12 md:place-content-center">
       <div className="flex gap-4">
@@ -18,7 +18,7 @@ const Filter: FC<FilterProps> = ({ activeFilter, setFilter }) => {
               outline={activeFilter !== filter.key}
               color="dark"
               pill={true}
-              onClick={() => setFilter(filter.key)}
+              onClick={() => handleFilter(filter.key)}
             >
               {filter.label}
             </Button>

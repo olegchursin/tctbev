@@ -24,8 +24,22 @@ const Cocktails: FC = () => {
   };
   const cocktailsList = filterCocktails(activeFilter);
 
+  const handleSearch = (value: string) => {
+    if (activeFilter) {
+      setActiveFilter('');
+    }
+    setSearch(value);
+  };
+
+  const handleFilter = (filterKey: string) => {
+    if (search) {
+      setSearch('');
+    }
+    setActiveFilter(filterKey);
+  };
+
   return (
-    <div className="mb-28 px-6 pt-6 md:pt-12 md:px-0">
+    <div className="mb-28 px-6 pt-6 md:px-0 md:pt-12">
       <div className="flex place-content-center">
         <div className="w-full md:w-1/2">
           <TextInput
@@ -35,11 +49,11 @@ const Cocktails: FC = () => {
             placeholder="Filter by cocktail name..."
             required={true}
             value={search}
-            onInput={e => setSearch(e.currentTarget.value)}
+            onInput={e => handleSearch(e.currentTarget.value)}
           />
         </div>
       </div>
-      <Filter activeFilter={activeFilter} setFilter={setActiveFilter} />
+      <Filter activeFilter={activeFilter} handleFilter={handleFilter} />
       <div className="flex flex-wrap place-content-center gap-8">
         {cocktailsList.map(cocktail => {
           return (

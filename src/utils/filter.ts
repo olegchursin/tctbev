@@ -36,6 +36,11 @@ export const filters: Filter[] = [
     label: 'Whisky'
   },
   {
+    id: 'cognac',
+    key: 'cognac',
+    label: 'Cognac'
+  },
+  {
     id: 'other',
     key: 'other',
     label: 'Other'
@@ -43,6 +48,6 @@ export const filters: Filter[] = [
   {
     id: 'na',
     key: 'na',
-    label: 'N/A'
+    label: 'Spirit free'
   }
 ];
